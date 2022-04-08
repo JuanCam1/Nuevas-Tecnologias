@@ -1,0 +1,93 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body{
+    align-items: center;
+    background-color: #17212F;
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+      margin: 0;
+  }
+  .container{
+    background-color: #202e41;
+    padding: 20px;
+    width: 30%;
+  }
+  
+  h1{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  input[type="text"]{
+    border: none;
+    border-radius: 5px;
+    height: 1.8rem;
+    margin-bottom: 1rem;
+    padding-left: 5px;
+    width: 48%;
+  }
+  
+  .btn{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;  
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    width: 32%;
+  }
+  
+  .limpiar{
+    background-color: #2f73da;
+    width: 98%;
+  }
+  
+  .limpiar:hover{
+    background-color: #0B5ED7;
+  }
+  
+  .crear{
+    background-color: #1fa566;
+  }
+  
+  .crear:hover{
+    background-color: #157347;
+  }
+  
+  .actualizar{
+    background-color: #fad155;
+  }
+  
+  .actualizar:hover{
+    background-color: #FFCA2C;
+  }
+  
+  .eliminar{
+    background-color: #c44f5b;
+  }
+  
+  .eliminar:hover{
+    background-color: #BB2D3B;
+  }
+  
+  select{
+    width: 98%;
+  }

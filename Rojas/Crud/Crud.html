@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Crud.css" />
+    <title>CRUD Javascript ConfiguroWeb</title>
+  </head>
+
+  <body>
+
+    <section class="container">
+      <h1>CRUD</h1>
+      
+      <form class="w3-container" onsubmit="event.preventDefault()">
+        <div class="input">
+          <input type="text" id="fname" placeholder="Nombre" />
+          <input type="text" id="lname" placeholder="Apellido" />
+        </div>
+        <div>
+          <button class="btn limpiar" onclick="clearForm()">
+            Limpiar Formulario
+          </button>
+        </div>
+      
+        <div>
+          <button class="btn crear" onclick="create()">
+            Crear
+          </button>
+          <button class="btn actualizar" onclick="update()">
+            Actualizar
+          </button>
+          <button class="btn eliminar" onclick="deleteItem()">
+            Eliminar
+          </button>
+        </div>
+      
+        <select id="panel" size="10" onclick="panelClick()"></select>
+      </form>
+    </section>
+
+    <script src="Crud.js"></script>
+  </body>
+</html>

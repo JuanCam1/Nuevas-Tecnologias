@@ -8,22 +8,17 @@ const hrefCrud = document.getElementById('href_crud');
 const links = [
     {
         name: 'viancha',
-        rutahj: "http://127.0.0.1:5501/Viancha/Hoja%20de%20vida/HojaDeVida.html",
+        rutahj: "./Viancha/HojaVida/HojaDeVida.html",
         rutacr: ""
     },
     {
         name: 'rojas',
-        rutahj: "http://127.0.0.1:5501/Rojas/Hoja%20de%20vida/index.html",
-        rutacr: ""
+        rutahj: "./Rojas/HojaVida/index.html",
+        rutacr: "./Rojas/Crud/Crud.html"
     },
     {
         name: 'rincon',
-        rutahj: "http://127.0.0.1:5501/Rojas/Hoja%20de%20vida/index.html",
-        rutacr: ""
-    },
-    {
-        name: 'diaz',
-        rutahj: "http://127.0.0.1:5501/Rojas/Hoja%20de%20vida/index.html",
+        rutahj: "./Rincon/HojaVida/HojaDeVida.html",
         rutacr: ""
     }
 ]
