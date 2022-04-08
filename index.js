@@ -19,7 +19,7 @@ const links = [
     {
         name: 'rincon',
         rutahj: "./Rincon/HojaVida/HojaDeVida.html",
-        rutacr: ""
+        rutacr: "./Rincon/Crud/index.html"
     }
 ]
 
