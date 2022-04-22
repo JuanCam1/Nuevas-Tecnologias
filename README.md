@@ -11,5 +11,5 @@ Realizado por los estudiantes
 
 ~~~
 Enlace del proyecto
-[proyecto](https://celebrated-florentine-67834e.netlify.app/)
+https://celebrated-florentine-67834e.netlify.app/
 ~~~
