@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -18,89 +17,157 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="img/j.png" />
+    <link rel="stylesheet" href="index.css" />
     <title>Blog</title>
   </head>
-  <body class="container">
-    <nav>
-      <p>Nuevas tecnologías de desarrollo</p>
+
+  <body>
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_list_item">
+          <a href="#desc">Sobre mi</a>
+        </li>
+        <li class="nav_list_item">
+          <a href="#expe">Experiencia</a>
+        </li>
+        <li class="nav_list_item">
+          <a href="#conc">Conocimiento</a>
+        </li>
+      </ul>
     </nav>
-    <main>
-      <section class="section">
-        <article class="art_desc">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            architecto repellendus, in vero aut repudiandae quidem nostrum
-            aspernatur consequuntur velit facere similique praesentium quaerat
-            dolor vel, atque voluptate? Maiores, natus!
-          </p>
-        </article>
-        <article class="art_acad">
-          <h3>Preparación academica</h3>
-          <ul>
-            <li>Luis Carlos Galan Sarmiento</li>
-            <li>Sena</li>
-            <li>UTS</li>
-          </ul>
-        </article>
-        <article class="art_lab">
-          <h3>Experiencia laboral</h3>
-          <ul>
-            <li>Mercaderista</li>
-            <li>Auxiliar bodega</li>
-            <li>Mesero</li>
-          </ul>
-        </article>
-        <article class="art_con">
-          <h3>Conocimiento</h3>
-          <div class="grid">
-            <div><abbr title="HTML"><i class="fa-brands fa-html5"></i></abbr></div>
-            <div><abbr title="CSS"><i class="fa-brands fa-css3-alt"></i></abbr></div>
-            <div><abbr title="JAVASCRIP"><i class="fa-brands fa-js"></i></abbr></div>
-            <div><abbr title="ANGULAR"><i class="fa-brands fa-angular"></i></abbr></div>
-            <div><abbr title="JAVA"><i class="fa-brands fa-java"></i></abbr></div>
-            <div><abbr title="GIT"><i class="fa-brands fa-git-square"></i></div></div>
+    <main class="main container scroll_margin">
+      <section class="desc scroll_margin" id="desc">
+        <div class="desc_container">
+          <div class="desc_img">
+            <img src="img/no-image.png" alt="img de perfil" />
           </div>
-          
-        </article>
-      </section>
-      <aside class="aside ">
-        <div class="aside_datos aside_center aside_col">
-          <h2>Juan Camilo</h2>
-          <h3>Rojas Díaz</h3>
-          <h3>Estudiante de Sistemas</h3>
+          <div class="desc_name">
+            <p>Hola, soy <span>Juan Camilo Rojas Díaz</span></p>
+          </div>
         </div>
-        <div class="aside_img">
-          <img src="no-image.png" alt="foto mia" />
-        </div>
-        <div class="aside_contact">
-          <h2 class="aside_center aside_col">Contacto</h2>
-          <div class="grid_cont">
-            <div><abbr title="GitHub">
-              <i class="fa-brands fa-github"></i>
-            </abbr></div>
-            <div><abbr title="Email">
-              <i class="fa-solid fa-envelope"></i>
-            </abbr></div>
-            <div><abbr title="linkedin">
-              <i class="fa-brands fa-linkedin"></i>
-            </abbr></div>            
+        <div class="desc_about">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda
+            dolorum quisquam tempora tenetur illum nam deleniti alias fugit
+            culpa autem ratione, sunt dicta, sequi illo ad soluta necessitatibus
+            nisi asperiores!
+          </p>
         </div>
 
-        <div class="aside_hab">
-          <h2 class="aside_center aside_col">Cualidades</h2>
-          <ul>
-            <li>Atento</li>
-            <li>Responsable</li>
-            <li>Deportista</li>
-            <li>Seguro</li>
-            <li>Interesado</li>
-          </ul>
+        <div class="qualitie">
+          <h2>Cualidades</h2>
+          <div class="linea-tiempo">
+            <div class="momento">
+              <div class="descripcion">Polifacético</div>
+            </div>
+            <div class="momento">
+              <div class="descripcion">Ingenioso</div>
+            </div>
+            <div class="momento">
+              <div class="descripcion">Creativo</div>
+            </div>
+            <div class="momento">
+              <div class="descripcion">Trabajador</div>
+            </div>
+            <div class="momento">
+              <div class="descripcion">Sociable</div>
+            </div>
+          </div>
         </div>
-      </aside>
+      </section>
+
+      <section class="expe scroll_margin" id="expe">
+        <h2>Experiencia</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda
+          dolorum quisquam tempora tenetur illum nam deleniti alias fugit
+          culpa autem ratione, sunt dicta, sequi illo ad soluta necessitatibus
+          nisi asperiores!
+        </p>
+        <div class="cards">
+          <div class="card">
+            <div class="contenido">
+              <ul>
+                <li><span>Exito</span></li>
+                <li>Surtidor e Inventarios</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="contenido">
+              <ul>
+                <li><span>Visión y Marketing</span></li>
+                <li>Mercaderista e Impulsador</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="contenido">
+              <ul>
+                <li><span>Unidrogas</span></li>
+                <li>Encargado de devoluciones</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="conc scroll_margin" id="conc">
+        <h2>Conocimientos</h2>
+        <div class="container__box">
+          <div class="box" id="box1">
+            <h5>HTML</h5>
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="box" id="box2">
+            <h5>CSS</h5>
+            <i class="fab fa-css3"></i>
+          </div>
+          <div class="box" id="box3">
+            <h5>JavaScript</h5>
+            <i class="fab fa-js"></i>
+          </div>
+          <div class="box" id="box3">
+            <h5>Github</h5>
+            <i class="fab fa-github"></i>
+          </div>
+          <div class="box" id="box4">
+            <h5>Git</h5>
+            <i class="fab fa-git-alt"></i>
+          </div>
+          <div class="box" id="box5">
+            <h5>PowerApps</h5>
+            <i class="fab fa-microsoft"></i>      
+          </div>
+      </section>
     </main>
-   
-    <footer>
-      <p>Derechos reservados &copy</p>
-    </footer>
+
+    <div class='social'>
+      <ul>
+        <li>
+          <a>
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a>
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a>
+          <i class="fab fa-linkedin"></i>
+        </a>      
+       </li>
+        <li>
+          <a>
+            <i class="fab fa-facebook"></i>
+         </a>
+        </li>
+      </ul>
+
+    </div>
+    
   </body>
 </html>
